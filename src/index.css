@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-tabs-top > .ant-tabs-nav {
+  margin-bottom: 0 !important;
+}
+
+.ant-timeline .ant-timeline-item-tail {
+  height: 100px;
+  width: 1.3px;
+  color: #7ee7ce;
+}
+
+.timelineDot {
+  width: "30.39px";
+  height: "30.03px";
+  border-radius: "50%";
+  background-color: "#F0FCF9";
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+}
+
+.custom-circle {
+  width: 30.39px;
+  height: 30.03px;
+  border-radius: 50%;
+  background-color: #f0fcf9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-badge {
+  background-color: #e0f2d9;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+:where(.css-dev-only-do-not-override-1htoz2s).ant-timeline
+  .ant-timeline-item-head-custom {
+  padding-top: 13px;
+}
